@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     font-size: 62.5%;
 }
@@ -205,8 +206,6 @@ input:focus {
 .btn4 {
     padding: 10px 1px;
 }
-
-
 .sec55 {
     display: flex;
     padding-top: 150px;
@@ -341,5 +340,285 @@ hr {
   @media(max-width:768px) {
     html {
         font-size: 45%;
+    }
+}
+@media screen  and (max-width:1230px) {
+    .nav-item {
+       position: relative;
+       left: -250px;
+       font-size: 20px;
+    }
+    .logo
+    {
+        display: none;
+    }
+    .headerleft {
+        display: none;
+    }
+    .headerright {
+        width: 800px;
+        position: relative;
+        left: 200px;
+        top: 100px;
+    }
+    .right4 {
+        margin-left: -40px;
+    }
+    .h2 {
+        text-align: center;
+        color: #000;
+        margin-bottom: 20px;
+    }
+    .p2 {
+        text-align: center;
+    }
+    .input-icons {
+        position: relative;
+        left: 110px;
+    }
+    .footer-topright {
+        position: relative;
+        left: 550px;
+        
+    }
+}
+@media screen  and (max-width:1065px){
+    .headerright {  
+        width: 80%;
+        margin: auto;
+        position: relative;
+        left: 3%;
+        right: 3%;
+        top: 100px; 
+        font-size: small;
+    }
+    .btn {
+        display: none;
+    }
+    .nav-item {
+        position: relative;
+        left: -380px;
+        font-size: 20px;
+     }
+     .input-icons {
+        position: relative;
+        left: 80px;
+        width: 50%;
+    }
+    .ltbtn {
+       display: none;
+    }
+    .listitem{
+        font-size: small;
+        position: relative;
+        left: 15%;
+    }
+    .listofitems +img {
+        width: 60%;
+        height: 60%;
+    }
+    .right3 img {
+        width: 200px;
+        height: 300px;
+        position: relative;
+        top: 20%;
+        margin-right: 100px;
+    }
+    .head{
+        font-size: smaller;
+        position: relative;
+        right: 150px;
+    }
+    .right4 {
+        width: 300px;
+        position: relative;
+        right: 30%;
+    } 
+    .left4 img {
+        width: 200px;
+        height: 300px;
+        position: relative;
+        left: 3; 
+    }
+    .right5 img {
+        width: 260px;
+        height: 260px;
+        position: relative;
+        top: 20%;
+    }
+    .para {
+        position: relative;
+        right: 20%;
+    }
+    .sec66 {
+        position: relative;
+        right: 5%;
+        margin-left: -80px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img3 {
+        position: relative;
+        left: 30%;
+        top: 50px;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .head h1 {
+       text-align: center;
+       margin-left: 300px;
+    }
+    .head p {
+        text-align: center;
+        margin-left: 100px;
+    }
+    .down6{
+        width: 13%;
+        position: relative;
+        left: 45%;
+        top: 80px;
+    }
+    .bussiness {
+        position: relative;
+        right: 10%;
+    }
+    .footer {
+        font-size: smaller;
+    }
+    .footer-topright  {
+        position: relative;
+        left: 190px;
+    }
+    .footerlist{
+        font-size: 10px;
+    }
+}
+
+@media screen  and (max-width:700px) {
+    nav {
+        position: relative;
+        left: 400px;
+    }
+    .nav-item {
+        font-size: 13px;
+    }
+    .listofitems+img {
+          width: 250px;
+          height: 250px;
+          margin-left: 50px;
+    }
+    .head {
+        margin-left:-200px;
+          }
+    .sec66 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+    .img3{
+        position: relative;
+        left: 0%;
+    }
+    .sec33 { 
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .head {
+        position: relative;
+        left: 20px;
+    }
+    .left3 {
+        text-align: center;
+    }
+    .sec4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right4 {
+        text-align: center;
+        position: relative;
+        left: -50px;
+        width: 500px;
+    }
+    .sec55 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left5 {
+        text-align: center;
+        position: relative;
+        left: 30px;
+    }
+    .down6{
+        width: 13%;
+        position: relative;
+        left: 35%;
+        top: 80px;
+    }
+    .footer_bottomsection{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        align-items: center;
+        
+    }
+    .fb1 {
+        margin-top: -200px;
+    }
+}
+@media screen  and (max-width:500px){
+    .listofitems+img{
+        margin-left: -100px;
+    }
+    .sec3 h1{
+        font-size: 30px;
+    }
+    .right3{
+        position: relative;
+        left: 50px;
+    }
+    .left3 h1,.left3 p{
+        font-size: 20px;
+    }
+    .left3{
+        position:relative;
+        left: -110px;
+    }
+    .left5 h1,.left5 p {
+        font-size: 20px;
+    }
+    .right5{
+        position: relative;
+        left: -80px;
+    }
+    .left5 {
+        position: relative;
+        left: -50px;
+    }
+    .h6 {
+        position: relative;
+        left:-100px;
+        top: -100px;
+    }
+    .h6 h1 {
+        margin-left: 350px;
+    }
+    .sec66 {
+        position: relative;
+        left: 0px;
+        top: -50px;
+    }
+    .footer-topleft{
+        display: none;
+    }
+    hr {
+        display: none;
     }
 }
