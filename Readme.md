@@ -16,4 +16,20 @@
 
 ## Time taken: 4 hours
 
-[Web Page:Live-Link](https://project12-htmlcss.netlify.app/)
+# Web Page : [Live-Link](https://project12-htmlcss.netlify.app/)
+
+![images](./Images/1.png)
+
+![images](./Images/3.png)
+
+![images](./Images/4.png)
+
+![images](./Images/5.png)
+
+![images](./Images/6.png)
+
+![images](./Images/7.png)
+
+![images](./Images/8.png)
+
+
